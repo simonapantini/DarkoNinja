@@ -51,12 +51,12 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-0.2f, 0.2f, 1);
 
         if (Input.GetKey(KeyCode.Space) && grounded)
-            Jump();           
+           Jump();           
             
 
         //Impostare i parametri per animator
         anim.SetBool("run", horizontalInput != 0);
-        //anim.SetBool("grounded", isGrounded());
+        anim.SetBool("grounded", grounded);
 
         // Salto sul muro e ancoraggio ad esso
 
@@ -89,7 +89,8 @@ public class PlayerMovement : MonoBehaviour
     // JUMP 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, speed);
+        body.velocity = new Vector2(body.velocity.x, jumpPower);
+        anim.SetTrigger("Jump");
         grounded = false;
        // if (isGrounded())
         //{
@@ -112,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground") 
             grounded = true;
     }
 
