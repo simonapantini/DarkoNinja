@@ -16,15 +16,24 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.canAttack())
-            Attack();
+        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.canAttack3())
+            Attack3();
+
+        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.canAttack1())
+            Attack1();
 
         cooldownTimer += Time.deltaTime;
     }
 
-    private void Attack()
+    private void Attack3()
     {
-        anim.SetTrigger("attack");
+        anim.SetTrigger("attack3");
+        cooldownTimer = 0;
+    }
+
+    private void Attack1()
+    {
+        anim.SetTrigger("attack1");
         cooldownTimer = 0;
     }
 }
