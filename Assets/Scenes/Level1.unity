@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 48952416}
   - component: {fileID: 48952417}
   - component: {fileID: 48952418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: main_lev_build_95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ Transform:
   m_LocalScale: {x: 1.5172, y: 1.525855, z: 1}
   m_Children: []
   m_Father: {fileID: 1691248920}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &48952417
 SpriteRenderer:
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 56329284}
   - component: {fileID: 56329286}
   - component: {fileID: 56329285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: main_lev_build_95 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ Transform:
   m_LocalScale: {x: 1.5172, y: 1.525855, z: 1}
   m_Children: []
   m_Father: {fileID: 1691248920}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &56329285
 BoxCollider2D:
@@ -352,9 +352,9 @@ GameObject:
   - component: {fileID: 73533247}
   - component: {fileID: 73533249}
   - component: {fileID: 73533248}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: main_lev_build_95 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -371,7 +371,7 @@ Transform:
   m_LocalScale: {x: 1.5172, y: 1.525855, z: 1}
   m_Children: []
   m_Father: {fileID: 1691248920}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &73533248
 BoxCollider2D:
@@ -722,10 +722,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87978274}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.405, y: 4.609, z: 0}
-  m_LocalScale: {x: 1.2510971, y: 2.1098228, z: 1}
+  m_LocalPosition: {x: -3.749932, y: 15.299311, z: 10.529898}
+  m_LocalScale: {x: 2.5021942, y: 4.2196455, z: 1}
   m_Children: []
-  m_Father: {fileID: 1691248920}
+  m_Father: {fileID: 861890521}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &87978276
@@ -2205,7 +2205,7 @@ GameObject:
   - component: {fileID: 304829275}
   - component: {fileID: 304829277}
   - component: {fileID: 304829276}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2221,7 +2221,7 @@ Transform:
   m_GameObject: {fileID: 304829274}
   m_LocalRotation: {x: -0, y: -0, z: 0.9999999, w: 0.00055073743}
   m_LocalPosition: {x: 31.9, y: -13.559999, z: 0}
-  m_LocalScale: {x: 2.7243438, y: 2.3468976, z: 1}
+  m_LocalScale: {x: 2.7243452, y: 2.346898, z: 1}
   m_Children: []
   m_Father: {fileID: 961536414}
   m_RootOrder: 9
@@ -3148,7 +3148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457703141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.404, y: 1.135, z: 2.5}
+  m_LocalPosition: {x: 9.04, y: 2.45, z: 2.5}
   m_LocalScale: {x: 0.8009, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1654111139}
@@ -3720,7 +3720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 562726070}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: piattaforme
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4113,7 +4113,7 @@ GameObject:
   - component: {fileID: 638607012}
   - component: {fileID: 638607013}
   - component: {fileID: 638607014}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4745,7 +4745,7 @@ GameObject:
   - component: {fileID: 729310918}
   - component: {fileID: 729310919}
   - component: {fileID: 729310920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5302,6 +5302,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &861890520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861890521}
+  m_Layer: 0
+  m_Name: Soffitto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &861890521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861890520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4399316, y: -1.0813107, z: -10.529898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 973089950}
+  - {fileID: 87978275}
+  - {fileID: 1796039493}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868500252
 GameObject:
   m_ObjectHideFlags: 0
@@ -5313,7 +5346,7 @@ GameObject:
   - component: {fileID: 868500253}
   - component: {fileID: 868500254}
   - component: {fileID: 868500255}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5328,8 +5361,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868500252}
   m_LocalRotation: {x: -0, y: -0, z: 0.9999999, w: 0.00055073743}
-  m_LocalPosition: {x: 19.720001, y: 0.98, z: 0}
-  m_LocalScale: {x: 2.7243438, y: 2.3468976, z: 1}
+  m_LocalPosition: {x: 21.92, y: 1.04, z: 0}
+  m_LocalScale: {x: 2.7243438, y: 2.3468976, z: -1}
   m_Children: []
   m_Father: {fileID: 961536414}
   m_RootOrder: 5
@@ -5587,7 +5620,7 @@ GameObject:
   - component: {fileID: 945089834}
   - component: {fileID: 945089835}
   - component: {fileID: 945089836}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5882,7 +5915,7 @@ Rigidbody2D:
   m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -5915,7 +5948,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952147464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.96, y: -3.3, z: 0}
+  m_LocalPosition: {x: 30.31, y: -10.83, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 2042647396}
@@ -5947,8 +5980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37aa64934c233e74bb676040177b5170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  jumpPower: 18
+  speed: 10
+  jumpPower: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 512
@@ -5987,7 +6020,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12653601, y: 4.049145}
+  m_Offset: {x: -0.15743351, y: 3.8329153}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5998,7 +6031,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.808362, y: 8.49092}
+  m_Size: {x: 4.9434376, y: 8.05846}
   m_EdgeRadius: 0
 --- !u!1 &953785671
 GameObject:
@@ -6173,7 +6206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 961536414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6229,10 +6262,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973089949}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.744, y: 3.978, z: -2}
-  m_LocalScale: {x: 2.1875508, y: 1.9808, z: 1}
+  m_LocalPosition: {x: -10.427933, y: 14.03731, z: 8.529898}
+  m_LocalScale: {x: 4.3751016, y: 3.9616, z: 1}
   m_Children: []
-  m_Father: {fileID: 1691248920}
+  m_Father: {fileID: 861890521}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &973089951
@@ -6493,7 +6526,7 @@ GameObject:
   - component: {fileID: 990821428}
   - component: {fileID: 990821429}
   - component: {fileID: 990821430}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6602,7 +6635,7 @@ GameObject:
   - component: {fileID: 998765927}
   - component: {fileID: 998765928}
   - component: {fileID: 998765929}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6957,7 +6990,7 @@ GameObject:
   - component: {fileID: 1098119530}
   - component: {fileID: 1098119531}
   - component: {fileID: 1098119532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7080,7 +7113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134087194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.43, y: 3.01, z: 2}
+  m_LocalPosition: {x: 7.07, y: 2.25, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1654111139}
@@ -7408,8 +7441,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240504467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.88, y: 1.33, z: 0}
-  m_LocalScale: {x: 1.3313, y: 1.4142, z: 1}
+  m_LocalPosition: {x: 9.06, y: 2.41, z: 1}
+  m_LocalScale: {x: 1.3313, y: 1.4142, z: 2}
   m_Children: []
   m_Father: {fileID: 1654111139}
   m_RootOrder: 35
@@ -7780,7 +7813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290427562}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.91, y: 1.37, z: 2}
+  m_LocalPosition: {x: 8.49, y: 0.44, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1654111139}
@@ -8125,7 +8158,7 @@ GameObject:
   - component: {fileID: 1336600401}
   - component: {fileID: 1336600402}
   - component: {fileID: 1336600403}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9680,7 +9713,7 @@ GameObject:
   - component: {fileID: 1676582004}
   - component: {fileID: 1676582003}
   - component: {fileID: 1676582001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_84 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9772,8 +9805,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676582000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.58, y: -0.96, z: 0}
-  m_LocalScale: {x: 1.3936, y: 0.9447, z: 1}
+  m_LocalPosition: {x: 15.3675, y: -0.71, z: 0}
+  m_LocalScale: {x: 2.0890064, y: 0.9447, z: 1}
   m_Children: []
   m_Father: {fileID: 562726070}
   m_RootOrder: 1
@@ -10033,9 +10066,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691248920}
-  m_Layer: 0
-  m_Name: Soffitto e pareti
-  m_TagString: Untagged
+  m_Layer: 10
+  m_Name: Pareti
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10051,9 +10084,6 @@ Transform:
   m_LocalPosition: {x: 9.5, y: 5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
-  - {fileID: 973089950}
-  - {fileID: 87978275}
-  - {fileID: 1796039493}
   - {fileID: 48952416}
   - {fileID: 1951137498}
   - {fileID: 73533247}
@@ -10333,10 +10363,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796039492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.55, y: 4.608, z: 0}
-  m_LocalScale: {x: 1.251097, y: 2.109823, z: 1}
+  m_LocalPosition: {x: 3.9600685, y: 15.29731, z: 10.529898}
+  m_LocalScale: {x: 2.502194, y: 4.219646, z: 1}
   m_Children: []
-  m_Father: {fileID: 1691248920}
+  m_Father: {fileID: 861890521}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1796039494
@@ -10933,7 +10963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903746497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.0918, y: 1.78, z: 3}
+  m_LocalPosition: {x: 9.31, y: 2.63, z: 3}
   m_LocalScale: {x: 0.9751, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1654111139}
@@ -11229,7 +11259,7 @@ GameObject:
   - component: {fileID: 1951137498}
   - component: {fileID: 1951137499}
   - component: {fileID: 1951137500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: main_lev_build_95 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11248,7 +11278,7 @@ Transform:
   m_LocalScale: {x: 1.5172, y: 1.525855, z: 1}
   m_Children: []
   m_Father: {fileID: 1691248920}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1951137499
 SpriteRenderer:
@@ -11732,7 +11762,7 @@ GameObject:
   - component: {fileID: 2047362701}
   - component: {fileID: 2047362702}
   - component: {fileID: 2047362703}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_80 (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11841,7 +11871,7 @@ GameObject:
   - component: {fileID: 2054312687}
   - component: {fileID: 2054312686}
   - component: {fileID: 2054312684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: main_lev_build_84
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -11933,8 +11963,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054312683}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.94, y: -2.176, z: 0}
-  m_LocalScale: {x: 1.3936, y: 1, z: 1}
+  m_LocalPosition: {x: 12.1592, y: -1.8, z: 0}
+  m_LocalScale: {x: 2.0523548, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 562726070}
   m_RootOrder: 0
