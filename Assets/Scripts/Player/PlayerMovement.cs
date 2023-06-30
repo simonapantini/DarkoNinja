@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpCooldown;
     private float horizontalInput;
     private float verticalInput;
-    private bool grounded;
+    //private bool grounded;
 
     [Header ("SFX")]
     [SerializeField] private AudioClip jumpSound;
@@ -50,18 +50,20 @@ public class PlayerMovement : MonoBehaviour
             if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(-0.2f, 0.2f, 1);
 
-        if (Input.GetKey(KeyCode.Space) && grounded)
-           Jump();           
+        //if (Input.GetKey(KeyCode.Space) && isGrounded())
+           //Jump();           
             
 
         //Impostare i parametri per animator
         anim.SetBool("run", horizontalInput != 0);
-        anim.SetBool("grounded", grounded);
+        anim.SetBool("grounded", isGrounded());
 
+       
         // Salto sul muro e ancoraggio ad esso
 
         if (wallJumpCooldown > 0.2f)
        {
+            
             body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
 
             if (onWall() && !isGrounded())      //staccaggio dal muro
@@ -72,66 +74,64 @@ public class PlayerMovement : MonoBehaviour
             else
                 body.gravityScale = 7;
 
-           //if(CrossPlatformInputManager.GetButtonDown("Jump"))
+            if (Input.GetKey(KeyCode.Space))
+                Jump();
+
+            //if(CrossPlatformInputManager.GetButtonDown("Jump"))
             //{
-              //  Jump();
-              //
-                //if ((CrossPlatformInputManager.GetButtonDown("Jump")) && isGrounded())
-                  //  SoundManager.instance.PlaySound(jumpSound);
+            //  Jump();
+            //
+            //if ((CrossPlatformInputManager.GetButtonDown("Jump")) && isGrounded())
+            //  SoundManager.instance.PlaySound(jumpSound);
             //}
-             // if (CrossPlatformInputManager.GetButtonDown("Jump")) UTILIZZARE PER SALTARE BOTTONE TELEFONO
+            // if (CrossPlatformInputManager.GetButtonDown("Jump")) UTILIZZARE PER SALTARE BOTTONE TELEFONO
 
 
-         }
+        }
         else
             wallJumpCooldown += Time.deltaTime;
     }
     // JUMP 
     private void Jump()
     {
-        body.velocity = new Vector2(body.velocity.x, jumpPower);
-        anim.SetTrigger("Jump");
-        grounded = false;
-       // if (isGrounded())
-        //{
-        //body.velocity = new Vector2(body.velocity.x, jumpPower);
-          //anim.SetTrigger("jump");
-        //}
-         //else if(onWall() && !isGrounded())
-         //{
-         //if(horizontalInput == 0)
-         //{
-          //body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
-            //transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);  //Flip del giocatore durante il salto su lato opposto
-         //}
-        // else
-          //     body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
-
-            // wallJumpCooldown = 0;
-           //}
-       }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground") 
-            grounded = true;
+        
+        if (isGrounded())
+        {
+            body.velocity = new Vector2(body.velocity.x, jumpPower);
+            anim.SetTrigger("jump");
+        }
+        else if (onWall() && !isGrounded())
+        {
+            if(horizontalInput == 0)
+            {
+            body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
+            transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x)/5, transform.localScale.y, transform.localScale.z);  //Flip del giocatore durante il salto su lato opposto
+            }
+             else
+                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 40, 15);
+            
+            wallJumpCooldown = 0;
+            
+        }
     }
+
 
         // Salto normale in contatto con oggetti
-        private bool isGrounded()
+     private bool isGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
-        return raycastHit.collider != null; 
-    }
+        return raycastHit.collider != null;
+     }
 
     private bool onWall()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit.collider != null; 
     }
+    
     public bool canAttack()
     {
-        return horizontalInput == 0 && grounded && !onWall();
+        return horizontalInput == 0 && isGrounded() && !onWall();
     }
 
     //private void OnTriggerEnter2D(Collider2D other)
