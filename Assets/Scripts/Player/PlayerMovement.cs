@@ -72,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
                 body.velocity = Vector2.zero;
             }
             else
-                body.gravityScale = 7;
+                body.gravityScale = 3;
 
             if (Input.GetKey(KeyCode.Space))
                 Jump();
@@ -129,16 +129,21 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null; 
     }
     
-    public bool canAttack()
+    public bool canAttack3()
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
     }
 
+    public bool canAttack1()
+    {
+        return horizontalInput != 0 && isGrounded() && !onWall();
+    }
+
     //private void OnTriggerEnter2D(Collider2D other)
     //{
-      //   if(other.gameObject.tag == "Spikes")
-        //{
-          //  Debug.Log("ouch!");
-        //} 
+    //   if(other.gameObject.tag == "Spikes")
+    //{
+    //  Debug.Log("ouch!");
+    //} 
     //}
 }
