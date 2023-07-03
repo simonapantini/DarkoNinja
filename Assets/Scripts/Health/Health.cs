@@ -37,20 +37,21 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
-                theGM.GameOver();
+                //theGM.GameOver();
 
                 SoundManager.instance.PlaySound(deathSound);
             }
         }
     }
 
-
+   
     // Vita Extra
 
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     }
+
     public void ResetPlayer()
     {
         anim.Play("Idle");

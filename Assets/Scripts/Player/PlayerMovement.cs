@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded())
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
-            anim.SetTrigger("jump");
+            anim.SetTrigger("Jump");
         }
         else if (onWall() && !isGrounded())
         {
@@ -108,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x)/5, transform.localScale.y, transform.localScale.z);  //Flip del giocatore durante il salto su lato opposto
             }
              else
-                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 40, 15);
+                 body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 25, 15);
             
             wallJumpCooldown = 0;
             

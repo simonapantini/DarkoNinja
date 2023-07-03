@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         currentTime += Time.deltaTime;
         timer.text = "TIME: " + FormatTime(currentTime);
     }
-
+   
     public string FormatTime(float _time)
     {
         TimeSpan totalTime = TimeSpan.FromSeconds(_time);

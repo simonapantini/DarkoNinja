@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'it' Physical Memory: 32555 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 16107 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,243 +11,67 @@ C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja
+C:/Users/simon/Desktop/DarkoNinja
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64852
-Successfully changed project path to: C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja
-C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja
+50721
+Successfully changed project path to: C:/Users/simon/Desktop/DarkoNinja
+C:/Users/simon/Desktop/DarkoNinja
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 395.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja/Assets
+[Subsystems] Discovering subsystems at path C:/Users/simon/Desktop/DarkoNinja/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
     Vendor:   
-    VRAM:     8038 MB
-    Driver:   31.0.15.2802
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001100 seconds.
+Registered in 0.381645 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.318 seconds
+- Completed reload, in  9.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (318ms)
-		BeginReloadAssembly (36ms)
+	ReloadAssembly (9917ms)
+		BeginReloadAssembly (7471ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (242ms)
-			LoadAssemblies (35ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1751ms)
+			LoadAssemblies (7469ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (1114ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (15ms)
-			SetupLoadedEditorAssemblies (94ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (44ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007056 seconds.
+Registered in 1.272971 seconds.
 Begin MonoManager ReloadAssembly
-Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-0x00007ff73da1ab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff73da21f29 (Unity) StackWalker::ShowCallstack
-0x00007ff73e78103c (Unity) GetStacktrace
-0x00007ff73f1cb2a3 (Unity) DebugStringToFile
-0x00007ff73d90c5db (Unity) ScanForAttributesAndInterfaceImplementations
-0x00007ff73d9326b3 (Unity) MonoManager::SetupTypeCache
-0x00007ff73d928be3 (Unity) MonoManager::EndReloadAssembly
-0x00007ff73d930057 (Unity) MonoManager::ReloadAssembly
-0x00007ff73e630e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff73e6314a9 (Unity) LoadUserAssemblies
-0x00007ff73e335b44 (Unity) Application::InitializeProject
-0x00007ff73e78b4f2 (Unity) WinMain
-0x00007ff73fe1bd4e (Unity) __scrt_common_main_seh
-0x00007ffeef0526ad (KERNEL32) BaseThreadInitThunk
-0x00007ffeefeaa9f8 (ntdll) RtlUserThreadStart
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
-0x00007ff73da1ab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff73da21f29 (Unity) StackWalker::ShowCallstack
-0x00007ff73e78103c (Unity) GetStacktrace
-0x00007ff73f1cb2a3 (Unity) DebugStringToFile
-0x00007ff73d931e95 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff73d928f71 (Unity) MonoManager::EndReloadAssembly
-0x00007ff73d930057 (Unity) MonoManager::ReloadAssembly
-0x00007ff73e630e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff73e6314a9 (Unity) LoadUserAssemblies
-0x00007ff73e335b44 (Unity) Application::InitializeProject
-0x00007ff73e78b4f2 (Unity) WinMain
-0x00007ff73fe1bd4e (Unity) __scrt_common_main_seh
-0x00007ffeef0526ad (KERNEL32) BaseThreadInitThunk
-0x00007ffeefeaa9f8 (ntdll) RtlUserThreadStart
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
-Domain Reload Profiling:
-	ReloadAssembly (720ms)
-		BeginReloadAssembly (78ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (10ms)
-		EndReloadAssembly (609ms)
-			LoadAssemblies (58ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (176ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2370 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.8 MB.
-System memory in use after: 103.0 MB.
-
-Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2786.
-Total: 2.149600 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.935700 ms  DeleteObjects: 0.053700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/BayatGames/Free Platform Game Assets
-  artifactKey: Guid(fca484a638c989e4d899378f52d7c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets using Guid(fca484a638c989e4d899378f52d7c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0120225e48bde8cac3b770120d18dc87') in 0.004232 seconds 
-  Import took 0.006514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies
-  artifactKey: Guid(3b72b88c74886834da1ae5d70dd49b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies using Guid(3b72b88c74886834da1ae5d70dd49b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baf4f3c9cdd70f18ca1e52f8f28ba14') in 0.002096 seconds 
-  Import took 0.004419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.488177 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies
-  artifactKey: Guid(0b42ea14fd16f4142af4d6dbb7e98e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies using Guid(0b42ea14fd16f4142af4d6dbb7e98e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c850ea28cf7fa0d6ca43051684708e9') in 0.002215 seconds 
-  Import took 0.004563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.345851 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png
-  artifactKey: Guid(4f6d3d209fb968546bc13c89f1ba3e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png using Guid(4f6d3d209fb968546bc13c89f1ba3e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fed0cdbf2630caa6beb238d470b8b6') in 0.002259 seconds 
-  Import took 0.004496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.808292 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128
-  artifactKey: Guid(83a2167937bb3ff4fb27634a0bb2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128 using Guid(83a2167937bb3ff4fb27634a0bb2d6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c455057be8d10acbec01cf64192d3fe') in 0.002173 seconds 
-  Import took 0.004569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.280771 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png
-  artifactKey: Guid(111d6ad0100b30a409730acbc80f96fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mac 128.png using Guid(111d6ad0100b30a409730acbc80f96fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11df4fd87b00f9594ee68a65f6f11c1') in 0.079556 seconds 
-  Import took 0.082399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png
-  artifactKey: Guid(006840a3143209e49978b3ace77c06ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_down.png using Guid(006840a3143209e49978b3ace77c06ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27da7cca7a7a5df72a8b66aa1e91949') in 0.009684 seconds 
-  Import took 0.012223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png
-  artifactKey: Guid(613b14988f467df4dbaefa49d7784a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Saw.png using Guid(613b14988f467df4dbaefa49d7784a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5052dbf0f5c718c5ff02a4817fd9a19c') in 0.011664 seconds 
-  Import took 0.014005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png
-  artifactKey: Guid(95b34bf8a34aa3543949566316d48302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Up.png using Guid(95b34bf8a34aa3543949566316d48302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0381c12117108302c08049d643f928f0') in 0.011119 seconds 
-  Import took 0.013453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png
-  artifactKey: Guid(e9b8e1622b3cc314396f4721ffd35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Mace.png using Guid(e9b8e1622b3cc314396f4721ffd35a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53c91b816758c3f808e5f76c08f1e23') in 0.010935 seconds 
-  Import took 0.013208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&down.png
-  artifactKey: Guid(9313547624ac5ad4f859f9b6feba896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Enemies/Enemies/png/128x128/Spike_Left&down.png using Guid(9313547624ac5ad4f859f9b6feba896e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfe4ab254219bb6e7d56fd42373f793') in 0.009014 seconds 
-  Import took 0.011291 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
