@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public string lvl1ToLoad;
     public string lvl2ToLoad;
     public int defaultLives;
+    //public string menu;
 
     private void Start()
     {
@@ -32,4 +33,6 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Game closed");
     }
-}
+
+ }
+
