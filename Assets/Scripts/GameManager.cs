@@ -42,12 +42,14 @@ public class GameManager : MonoBehaviour
     public void Victory()
     {
         victoryScreen.SetActive(true);
-        thePlayer.gameObject.SetActive(false);
+
+        finishTimer.text = "TIME: " + FormatTime(currentTime);
+        //thePlayer.gameObject.SetActive(false);
         //GameObject.Find("Player").SendMessage("Finnish");
 
         gameRunning = false;
         timer.gameObject.SetActive(false);
-        finishTimer.text = "TIME: " + FormatTime(currentTime);
+        //finishTimer.text = "TIME: " + FormatTime(currentTime);
     }
 
     public void GameOver()
