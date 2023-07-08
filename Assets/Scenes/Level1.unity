@@ -1825,7 +1825,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1271232007}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: ChangeVolume
+        m_MethodName: ChangeVolumeEffect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1876,9 +1876,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f1a0db57600bb764ebbcbf00b233666e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10787,6 +10787,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCooldown: 0
+  attack1Sound: {fileID: 8300000, guid: a529f901bd51a994ab50b87aa4784457, type: 3}
+  attack3Sound: {fileID: 8300000, guid: a529f901bd51a994ab50b87aa4784457, type: 3}
 --- !u!114 &952147470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10807,7 +10809,7 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 2048
-  jumpSound: {fileID: 0}
+  jumpSound: {fileID: 8300000, guid: a529f901bd51a994ab50b87aa4784457, type: 3}
   runSound: {fileID: 0}
   theGM: {fileID: 837861635}
 --- !u!114 &952147471
@@ -10826,8 +10828,9 @@ MonoBehaviour:
   theGM: {fileID: 837861635}
   iFramesDuration: 2
   numberOfFlashes: 3
-  deathSound: {fileID: 0}
-  hurtSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: bff7b8d254e16dd46bd9b8e56d65fa49, type: 3}
+  hurtSound: {fileID: 8300000, guid: 1734cebdf2bc02842a4652686c07cf90, type: 3}
+  lifeSound: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
 --- !u!61 &952147472
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13815,7 +13818,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200511885}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &1237700153
 GameObject:
   m_ObjectHideFlags: 0
@@ -14084,8 +14087,8 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -14145,7 +14148,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -19851,7 +19854,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1975274943}
+      - m_Target: {fileID: 1015063064}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
