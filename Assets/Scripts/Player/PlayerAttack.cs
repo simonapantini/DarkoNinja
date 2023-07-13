@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -6,7 +9,11 @@ public class PlayerAttack : MonoBehaviour
     private Animator anim;
     private PlayerMovement playerMovement;
     private float cooldownTimer = Mathf.Infinity;
-    
+
+    [Header("SFX")]
+    [SerializeField] private AudioClip attack1Sound;
+    [SerializeField] private AudioClip attack3Sound;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -28,12 +35,17 @@ public class PlayerAttack : MonoBehaviour
     private void Attack3()
     {
         anim.SetTrigger("attack3");
+        SoundManager.instance.PlaySound(attack3Sound);
         cooldownTimer = 0;
+        
+
     }
 
     private void Attack1()
     {
         anim.SetTrigger("attack1");
+        SoundManager.instance.PlaySound(attack1Sound);
         cooldownTimer = 0;
+        
     }
 }

@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     [Header ("SFX")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip runSound;
+    
 
     public GameManager theGM;
 
@@ -41,18 +45,23 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
         verticalInput = Input.GetAxis("Vertical");
         //horizontalInput = CrossPlatformInputManager.GetAxis("Horizontal"); //UTILIZZARE QUESTO PER GIOCARE AL TELEFONO
-        
+
         // inserimento "flip" del Player quando cambia direzione
 
         if (horizontalInput > 0.01f)
+        {
             transform.localScale = new Vector3(0.2f, 0.2f, 1);
+            SoundManager.instance.PlaySound(runSound);
+        }
         else
             if (horizontalInput < -0.01f)
+        {
             transform.localScale = new Vector3(-0.2f, 0.2f, 1);
-
+            SoundManager.instance.PlaySound(runSound);
+        }
         //if (Input.GetKey(KeyCode.Space) && isGrounded())
-           //Jump();           
-            
+        //Jump();           
+
 
         //Impostare i parametri per animator
         anim.SetBool("run", horizontalInput != 0);
@@ -99,6 +108,7 @@ public class PlayerMovement : MonoBehaviour
         {
             body.velocity = new Vector2(body.velocity.x, jumpPower);
             anim.SetTrigger("Jump");
+            SoundManager.instance.PlaySound(jumpSound);
         }
         else if (onWall() && !isGrounded())
         {
@@ -132,11 +142,13 @@ public class PlayerMovement : MonoBehaviour
     public bool canAttack3()
     {
         return horizontalInput == 0 && isGrounded() && !onWall();
+        
     }
 
     public bool canAttack1()
     {
         return horizontalInput != 0 && isGrounded() && !onWall();
+      
     }
 
     //private void OnTriggerEnter2D(Collider2D other)

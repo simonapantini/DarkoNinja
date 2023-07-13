@@ -17,9 +17,10 @@ public class Health : MonoBehaviour
     [SerializeField] private int numberOfFlashes;
     private SpriteRenderer spriteRend;
 
-    [Header("Death Sound")]
+    [Header("Sounds")]
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip lifeSound;
 
     private void Awake()
     {
@@ -59,6 +60,7 @@ public class Health : MonoBehaviour
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+        SoundManager.instance.PlaySound(lifeSound);
     }
 
      private IEnumerator Invulerability()
