@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header ("SFX")]
     [SerializeField] private AudioClip jumpSound;
-    [SerializeField] private AudioClip runSound;
+    //[SerializeField] private AudioClip runSound;
     
 
     public GameManager theGM;
@@ -51,13 +51,13 @@ public class PlayerMovement : MonoBehaviour
         if (horizontalInput > 0.01f)
         {
             transform.localScale = new Vector3(0.2f, 0.2f, 1);
-            SoundManager.instance.PlaySound(runSound);
+            //SoundManager.instance.PlaySound(runSound);
         }
         else
             if (horizontalInput < -0.01f)
         {
             transform.localScale = new Vector3(-0.2f, 0.2f, 1);
-            SoundManager.instance.PlaySound(runSound);
+            //SoundManager.instance.PlaySound(runSound);
         }
         //if (Input.GetKey(KeyCode.Space) && isGrounded())
         //Jump();           

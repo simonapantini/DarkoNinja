@@ -43,7 +43,7 @@ public class SoundManager : MonoBehaviour
 
     public void ChangeVolumeEffect()
     {
-        AudioListener.volume = EffectsSlider.value;
+        AudioListener.volume = volumeSlider.value;
         Save();
     }
 
