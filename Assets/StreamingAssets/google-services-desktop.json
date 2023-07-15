@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "1015020952521",
+    "project_id": "darkoninja-a2ca7",
+    "storage_bucket": "darkoninja-a2ca7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015020952521:ios:dc3dd635438fde8d01e618",
+        "android_client_info": {
+          "package_name": "com.FISCompany.Darkoninja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015020952521-8jri9qq8g99l9bf3o2tp2etiamu7982j.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Hf8N_ZiAS3ii0PEQr6OpjygzXXNb-ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

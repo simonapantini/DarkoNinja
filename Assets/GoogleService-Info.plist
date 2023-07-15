@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1015020952521-8jri9qq8g99l9bf3o2tp2etiamu7982j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1015020952521-8jri9qq8g99l9bf3o2tp2etiamu7982j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1Hf8N_ZiAS3ii0PEQr6OpjygzXXNb-ck</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1015020952521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.FISCompany.Darkoninja</string>
+	<key>PROJECT_ID</key>
+	<string>darkoninja-a2ca7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>darkoninja-a2ca7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1015020952521:ios:dc3dd635438fde8d01e618</string>
+</dict>
+</plist>
