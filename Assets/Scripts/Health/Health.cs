@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     [Header("Sounds")]
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
-    [SerializeField] private AudioClip lifeSound;
+    //[SerializeField] private AudioClip lifeSound;
 
     private void Awake()
     {
@@ -60,7 +60,7 @@ public class Health : MonoBehaviour
     public void AddHealth(float _value)
     {
         currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
-        SoundManager.instance.PlaySound(lifeSound);
+        //SoundManager.instance.PlaySound(lifeSound);
     }
 
      private IEnumerator Invulerability()
