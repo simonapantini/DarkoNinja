@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'it' Physical Memory: 16293 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'it' Physical Memory: 32555 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,146 +11,146 @@ C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/simon/DarkoNinja
+C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja-1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63221
-Successfully changed project path to: C:/Users/simon/DarkoNinja
-C:/Users/simon/DarkoNinja
+51990
+Successfully changed project path to: C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja-1
+C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja-1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/simon/DarkoNinja/Assets
+[Subsystems] Discovering subsystems at path C:/Users/fabra/Desktop/progetto_mobile/DarkoNinja-1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   30.0.14.7280
+    VRAM:     8038 MB
+    Driver:   31.0.15.2802
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001760 seconds.
+Registered in 0.001037 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.420 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (420ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (96ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014187 seconds.
+Registered in 0.019333 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696ccc5db (Unity) ScanForAttributesAndInterfaceImplementations
-0x00007ff696cf26b3 (Unity) MonoManager::SetupTypeCache
-0x00007ff696ce8be3 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff6976f5b44 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
+0x00007ff76993ab2c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff769941f29 (Unity) StackWalker::ShowCallstack
+0x00007ff76a6a103c (Unity) GetStacktrace
+0x00007ff76b0eb2a3 (Unity) DebugStringToFile
+0x00007ff76982c5db (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff7698526b3 (Unity) MonoManager::SetupTypeCache
+0x00007ff769848be3 (Unity) MonoManager::EndReloadAssembly
+0x00007ff769850057 (Unity) MonoManager::ReloadAssembly
+0x00007ff76a550e41 (Unity) LoadDomainAndUserAssemblies
+0x00007ff76a5514a9 (Unity) LoadUserAssemblies
+0x00007ff76a255b44 (Unity) Application::InitializeProject
+0x00007ff76a6ab4f2 (Unity) WinMain
+0x00007ff76bd3bd4e (Unity) __scrt_common_main_seh
+0x00007ff8e36026ad (KERNEL32) BaseThreadInitThunk
+0x00007ff8e578aa68 (ntdll) RtlUserThreadStart
 
 Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696cf1e95 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff696ce8f71 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff6976f5b44 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
+0x00007ff76993ab2c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff769941f29 (Unity) StackWalker::ShowCallstack
+0x00007ff76a6a103c (Unity) GetStacktrace
+0x00007ff76b0eb2a3 (Unity) DebugStringToFile
+0x00007ff769851e95 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff769848f71 (Unity) MonoManager::EndReloadAssembly
+0x00007ff769850057 (Unity) MonoManager::ReloadAssembly
+0x00007ff76a550e41 (Unity) LoadDomainAndUserAssemblies
+0x00007ff76a5514a9 (Unity) LoadUserAssemblies
+0x00007ff76a255b44 (Unity) Application::InitializeProject
+0x00007ff76a6ab4f2 (Unity) WinMain
+0x00007ff76bd3bd4e (Unity) __scrt_common_main_seh
+0x00007ff8e36026ad (KERNEL32) BaseThreadInitThunk
+0x00007ff8e578aa68 (ntdll) RtlUserThreadStart
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  0.977 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1271ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (1ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3466 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 146.3 MB.
 System memory in use after: 146.5 MB.
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3882.
-Total: 3.118600 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.167400 ms MarkObjects: 2.623200 ms  DeleteObjects: 0.067400 ms)
+Total: 2.269900 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.973900 ms  DeleteObjects: 0.066400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,596 +159,775 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5aa11fbe2cea2e7d0350ad586799f6') in 0.015168 seconds 
-  Import took 0.019859 seconds .
+  path: Assets/StoneUI/OtherUI_2-1K/3.png
+  artifactKey: Guid(d3a53dd56fb9a0444835a5fa1cdd14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/3.png using Guid(d3a53dd56fb9a0444835a5fa1cdd14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3972151641e7ce1d8688f367cded09') in 0.151013 seconds 
+  Import took 0.155084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1135.024786 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-01.wav
-  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4b82fd7d6c299d0cdcaf93c4ada8be') in 0.069751 seconds 
-  Import took 0.075470 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/2.png
+  artifactKey: Guid(194d122d9d8b4e24dbab431b3e0209c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/2.png using Guid(194d122d9d8b4e24dbab431b3e0209c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b3d5ceb7f94016ade66ddda7ae366') in 0.144572 seconds 
+  Import took 0.150609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-34.wav
-  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3414b355054d74e93d0414c824ae738c') in 0.010859 seconds 
-  Import took 0.015504 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/StoneUI/OtherUI_2-1K/4.png
+  artifactKey: Guid(1a6a09d346d070341809e5f3b9a2e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/4.png using Guid(1a6a09d346d070341809e5f3b9a2e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e74ff409e17e1428649adb0a12ada0') in 0.046020 seconds 
+  Import took 0.051153 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-18.wav
-  artifactKey: Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-18.wav using Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14198839e3e756bc6fa2274250621f86') in 0.037238 seconds 
-  Import took 0.042482 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/5.png
+  artifactKey: Guid(ef4a8d855fd835e42b625eb8c707a861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/5.png using Guid(ef4a8d855fd835e42b625eb8c707a861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f532597d438a85099deaf3c4377a4b5a') in 0.114593 seconds 
+  Import took 0.123063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-22.wav
-  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae7791fa911c4576997dc7f62a3829c') in 0.010065 seconds 
-  Import took 0.014727 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/StoneUI/OtherUI_2-1K/6.png
+  artifactKey: Guid(6b685a8ef183fec4aa5ac2e0db948a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/6.png using Guid(6b685a8ef183fec4aa5ac2e0db948a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b529bdf2a220c61fcd6cd8d92dd52fa0') in 0.045667 seconds 
+  Import took 0.049585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-16.wav
-  artifactKey: Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-16.wav using Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ca1a3c6dd0b9a3924b3f01d69d0cdf') in 0.010944 seconds 
-  Import took 0.015782 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/StoneUI/OtherUI_2-1K/2.png
+  artifactKey: Guid(92aed355811f74647a8a12fc00cbe8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/2.png using Guid(92aed355811f74647a8a12fc00cbe8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58893aee97c503578b1d8100cd899bc8') in 0.043257 seconds 
+  Import took 0.047205 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-19.wav
-  artifactKey: Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-19.wav using Guid(81652031b64c342cc8dbc59c138d77c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e6cc583c255604e4a83dd6bfcf7b5') in 0.010010 seconds 
-  Import took 0.015056 seconds .
+  Time since last request: 0.000370 seconds.
+  path: Assets/StoneUI/OtherUI_2-1K/1.png
+  artifactKey: Guid(e919f8b19e6260d44b25ce176dd8ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/1.png using Guid(e919f8b19e6260d44b25ce176dd8ee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c9c408a606cd0d80476e9b565e5d4b') in 0.046790 seconds 
+  Import took 0.051163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-12.wav
-  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-12.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267230744b3133578be91558ff4c2718') in 0.010693 seconds 
-  Import took 0.015695 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/StoneUI/OtherUI_2-1K/5.png
+  artifactKey: Guid(2472b0e6448546d459845bb15c81ed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_2-1K/5.png using Guid(2472b0e6448546d459845bb15c81ed89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3cc137e17381e763cae57e72bfe066') in 0.054799 seconds 
+  Import took 0.058614 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-20.wav
-  artifactKey: Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-20.wav using Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f4dadc0f1f9caf26af0e65e7ccf057') in 0.010452 seconds 
-  Import took 0.015284 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/4.png
+  artifactKey: Guid(66f0952bca521c640813e789d988aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/4.png using Guid(66f0952bca521c640813e789d988aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a871f32928091a37bd73cff3ccda8d') in 0.083328 seconds 
+  Import took 0.091911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-11.wav
-  artifactKey: Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-11.wav using Guid(a0010a1a0c474473b81729eb770c485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df75ad1d9e3ed118048069443ce62d3') in 0.009440 seconds 
-  Import took 0.014365 seconds .
+  Time since last request: 0.000247 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/3.png
+  artifactKey: Guid(bf863c1f5968393428ffda61834c097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/3.png using Guid(bf863c1f5968393428ffda61834c097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8f640a19d15d7812cf7f569a85ca3b') in 0.076774 seconds 
+  Import took 0.081684 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-30.wav
-  artifactKey: Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-30.wav using Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5476981ca70fc5ec76dcde6610acd') in 0.009890 seconds 
-  Import took 0.015346 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984585674efbe1ab4a95e24b38d6759e') in 0.006577 seconds 
+  Import took 0.010565 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-32.wav
-  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-32.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202176099125816a7dcda9a7c6366940') in 0.009561 seconds 
-  Import took 0.014421 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0af03bea84f31dbaa8c4a08c371417') in 0.007250 seconds 
+  Import took 0.011842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-24.wav
-  artifactKey: Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-24.wav using Guid(657578e4be6b64dbf9b09deada272e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128ab27d174387fba7f52da479cac311') in 0.009997 seconds 
-  Import took 0.015388 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/1.png
+  artifactKey: Guid(7188e9d0ec465034995ea794e337b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/1.png using Guid(7188e9d0ec465034995ea794e337b4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f1dbd56f819a071c5ef82a1b8adbaf') in 0.072606 seconds 
+  Import took 0.077699 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-25.wav
-  artifactKey: Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-25.wav using Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3ef867940f91250d0b186113fe5844') in 0.010201 seconds 
-  Import took 0.015530 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/6.png
+  artifactKey: Guid(e14bbe2e2c7636d469e52ddb56b46f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/6.png using Guid(e14bbe2e2c7636d469e52ddb56b46f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c6b4a5ea6d3b908e9af0bb4249c532') in 0.076537 seconds 
+  Import took 0.081726 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-26.wav
-  artifactKey: Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-26.wav using Guid(7bd6b897eb5ca4b7d88a205c4a51640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bcde947c5c94cb3047066dda5788f1') in 0.010226 seconds 
-  Import took 0.015261 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/StoneUI/OrherUI_4-2K/7.png
+  artifactKey: Guid(b498b10e04b2d4d42b0c26e9eb535f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OrherUI_4-2K/7.png using Guid(b498b10e04b2d4d42b0c26e9eb535f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1de294d1307b84fc9b2a196548f26') in 0.050349 seconds 
+  Import took 0.054676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-10.wav
-  artifactKey: Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-10.wav using Guid(cabfae866cab347928b74b7d0ca6bfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025dc988feec759d95c3c5e24c181e83') in 0.010287 seconds 
-  Import took 0.015071 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2231d8790ba6fa48a26f47c1ceb5c413') in 0.006254 seconds 
+  Import took 0.010522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-17.wav
-  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6484626ead981c5df523ddc61b9e76') in 0.010962 seconds 
-  Import took 0.016124 seconds .
+  Time since last request: 4.741552 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e538f91a0966f9bcdbede76fb344e4b2') in 0.007455 seconds 
+  Import took 0.011832 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-15.wav
-  artifactKey: Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-15.wav using Guid(0c008ee3ee72a4362a35be25fa5de043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83156e3798b97959f5ae482b00929650') in 0.010131 seconds 
-  Import took 0.015095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-29.wav
-  artifactKey: Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-29.wav using Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e766db0bff15e3dcb081e0f2082ca2b') in 0.010130 seconds 
-  Import took 0.015117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-07.wav
-  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a720b685088168640ddffe3fac3bbd34') in 0.010373 seconds 
-  Import took 0.015009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-23.wav
-  artifactKey: Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-23.wav using Guid(a0ca8964c08d54c5dbebf245bdc474ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f875958bda7626a1fd84f578d650a5e') in 0.010135 seconds 
-  Import took 0.015228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-35.wav
-  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118cd3d8a87c6db123f743c4bf586352') in 0.009939 seconds 
-  Import took 0.014878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-08.wav
-  artifactKey: Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-08.wav using Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9bf95154511d84787a377ab4bdd136') in 0.010499 seconds 
-  Import took 0.015635 seconds .
+  Time since last request: 0.055418 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga
+  artifactKey: Guid(d1f1048909d55cd4fa1126ab998f617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/SMAA/AreaTex.tga using Guid(d1f1048909d55cd4fa1126ab998f617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd1a538a28929d0cef9653f22c74df0') in 0.010945 seconds 
+  Import took 0.014886 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000234 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-36.wav
-  artifactKey: Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-36.wav using Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b64dfea912b112d95cf8ec8bc0d410') in 0.010513 seconds 
-  Import took 0.015829 seconds .
+  path: Assets/PlatformerSet1/AnimCharacter/attack-02.png
+  artifactKey: Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-02.png using Guid(9a20c343a03a6e54a9a3c14e4ed48626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b137acceb5d578eba451b83edaa93b1') in 0.013710 seconds 
+  Import took 0.017515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-04.wav
-  artifactKey: Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-04.wav using Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03df1dc5508c65fc95d4f7cde9ef5dfb') in 0.010075 seconds 
-  Import took 0.015143 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-01.png
+  artifactKey: Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-01.png using Guid(d158b158ee8df3a44b010b2fb940c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2634dda5bba8dce11c85e52ec7a460e5') in 0.009476 seconds 
+  Import took 0.013469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-05.wav
-  artifactKey: Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-05.wav using Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ae02fb7ea493007e5bf6852f53227') in 0.009957 seconds 
-  Import took 0.015473 seconds .
+  Time since last request: 0.050361 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-03.png
+  artifactKey: Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-03.png using Guid(0eb6b104a0a66294dadc3d37f183f3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02213d98223474c4ddf270c42ed6d3e') in 0.010320 seconds 
+  Import took 0.014224 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-14.wav
-  artifactKey: Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-14.wav using Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfb08945cf8168427db074fcd492290') in 0.009577 seconds 
-  Import took 0.014764 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-05.png
+  artifactKey: Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-05.png using Guid(795b97dd4efe7c748885440b5a8daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c30b91f56bc7b17a913329c937a02a4') in 0.012457 seconds 
+  Import took 0.016100 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-31.wav
-  artifactKey: Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-31.wav using Guid(cf6c0e7fbef9449c98a0cdb5ea0c4d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d78fd003a7ddd938c16ab9bdfab7e55') in 0.009789 seconds 
-  Import took 0.014655 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-04.png
+  artifactKey: Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-04.png using Guid(fa0cb05d87d658147a2fdc6f50f5bf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e0861d19a863b6ff594442bc5fbd25') in 0.008734 seconds 
+  Import took 0.012317 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-09.wav
-  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec9abc8ff20842c22a1aecb37549f26') in 0.009944 seconds 
-  Import took 0.015439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-33.wav
-  artifactKey: Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-33.wav using Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923db83921f376b47cf998c21366f39a') in 0.010074 seconds 
-  Import took 0.015296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-13.wav
-  artifactKey: Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-13.wav using Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b04fc76cf43b3607599f3b86f5b3a61') in 0.010228 seconds 
-  Import took 0.015221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-03.wav
-  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067e72a5c12bf2c8f85ff73855d23d5f') in 0.010428 seconds 
-  Import took 0.015348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-21.wav
-  artifactKey: Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-21.wav using Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5825359434d1eb5912247c8cc9125f35') in 0.009881 seconds 
-  Import took 0.014524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-06.wav
-  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f97810ae85b112f1f034d4cb1b8ef5') in 0.010494 seconds 
-  Import took 0.015298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-02.wav
-  artifactKey: Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-02.wav using Guid(dc6614beca09347ec9b258f12d154bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fba8c2162162ef0bce826a5fbbea6b6') in 0.010507 seconds 
-  Import took 0.015522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-28.wav
-  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766fdf1b945edea3c47a28ba23ca9b3b') in 0.010354 seconds 
-  Import took 0.015362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-27.wav
-  artifactKey: Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-27.wav using Guid(5039414d94a6e4e70a5ab9e8833e992a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2500f0c983ddfecbc0abeba734abf92f') in 0.010246 seconds 
-  Import took 0.015131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/CasualGameSounds/DM-CGS-37.wav
-  artifactKey: Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CasualGameSounds/DM-CGS-37.wav using Guid(a931da70ee74947d5a047de583170ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd00f8e1362e7659886ea129c9020b22') in 0.011548 seconds 
-  Import took 0.016630 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013015 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696ccc5db (Unity) ScanForAttributesAndInterfaceImplementations
-0x00007ff696cf26b3 (Unity) MonoManager::SetupTypeCache
-0x00007ff696ce8be3 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff697c27118 (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
-0x00007ff697cae2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff697cb0450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff697cb3bce (Unity) asio::io_service::run
-0x00007ff697c4f8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff697c4f930 (Unity) RunAssetImporterV2
-0x00007ff6976f5b49 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696cf1e95 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff696ce8f71 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff697c27118 (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
-0x00007ff697cae2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff697cb0450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff697cb3bce (Unity) asio::io_service::run
-0x00007ff697c4f8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff697c4f930 (Unity) RunAssetImporterV2
-0x00007ff6976f5b49 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (1ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.4 MB.
-System memory in use after: 140.6 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3893.
-Total: 3.665100 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.124200 ms MarkObjects: 3.242800 ms  DeleteObjects: 0.057300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.831467 seconds.
-  path: Assets/Audio/Music
-  artifactKey: Guid(a6959d7afd8e3da469e5a9706c8994f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music using Guid(a6959d7afd8e3da469e5a9706c8994f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a247d92517ac9f0ab5c53a414f738787') in 0.008962 seconds 
-  Import took 0.014738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.833240 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack
-  artifactKey: Guid(e693b9edd8f5d3b4dbae9c1d2f740669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack using Guid(e693b9edd8f5d3b4dbae9c1d2f740669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a679a88c94a9fdd87ec3fb6f209ae1b') in 0.004608 seconds 
-  Import took 0.010243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.823917 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00
-  artifactKey: Guid(51673dbfcd137f24b91502cd69c40b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00 using Guid(51673dbfcd137f24b91502cd69c40b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf11b5a78d903348327489d81005fb00') in 0.004635 seconds 
-  Import took 0.010400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.160797 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00/Action Battle Cue 3 @125 BMP Duration 01_00.wav
-  artifactKey: Guid(82e75903c4e32b04aaecfbfdf84c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00/Action Battle Cue 3 @125 BMP Duration 01_00.wav using Guid(82e75903c4e32b04aaecfbfdf84c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962847a790a55cba6442882e33e19b8d') in 0.040600 seconds 
-  Import took 0.045741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00/LOOP_Action Battle Cue 3 @  125 BMP 1_00 minutes.wav
-  artifactKey: Guid(859d9e3520c5bc046824604e12822cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Action Battle Cue 3 @125 BMP Duration 01_00/LOOP_Action Battle Cue 3 @  125 BMP 1_00 minutes.wav using Guid(859d9e3520c5bc046824604e12822cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713248c74b469f67d5ffcc4308dba55c') in 0.011801 seconds 
-  Import took 0.016735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.127893 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00
-  artifactKey: Guid(d825150ef33a5d9468d85e153c6a3847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00 using Guid(d825150ef33a5d9468d85e153c6a3847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a1df4129507816505ff0f3eb9a43ac') in 0.005345 seconds 
-  Import took 0.010904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063805 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00/LOOP_Tension Cue 1 @  100 BMP 1_00 minutes.wav
-  artifactKey: Guid(f1a0db57600bb764ebbcbf00b233666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00/LOOP_Tension Cue 1 @  100 BMP 1_00 minutes.wav using Guid(f1a0db57600bb764ebbcbf00b233666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eaa406ecc36d3c4a4bf357c551bb2f') in 0.010023 seconds 
-  Import took 0.015205 seconds .
+  Time since last request: 0.280610 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-06.png
+  artifactKey: Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-06.png using Guid(d0a5804cfe067a24197f6625bb09f8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef63bb873b157c4cb46fc5511cfdd4ea') in 0.011259 seconds 
+  Import took 0.017409 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000249 seconds.
-  path: Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00/Tension Cue 1 @100 BMP Duration 01_00.wav
-  artifactKey: Guid(f58ffc3310f32f04cb07c6738917e972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music/Complete Mysterious Forest Game Music Pack/Tension Cue 1 @100 BMP Duration 01_00/Tension Cue 1 @100 BMP Duration 01_00.wav using Guid(f58ffc3310f32f04cb07c6738917e972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1f450602299e376af0737b4112ec63') in 0.010533 seconds 
-  Import took 0.015139 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014060 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of iOSNotificationPostProcessor:ShouldAddSettingToPlist due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696ccc5db (Unity) ScanForAttributesAndInterfaceImplementations
-0x00007ff696cf26b3 (Unity) MonoManager::SetupTypeCache
-0x00007ff696ce8be3 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff697c27118 (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
-0x00007ff697cae2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff697cb0450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff697cb3bce (Unity) asio::io_service::run
-0x00007ff697c4f8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff697c4f930 (Unity) RunAssetImporterV2
-0x00007ff6976f5b49 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
-
-Unloading broken assembly Library/ScriptAssemblies/Unity.Notifications.dll, this assembly can cause crashes in the runtime
-0x00007ff696ddab2c (Unity) StackWalker::GetCurrentCallstack
-0x00007ff696de1f29 (Unity) StackWalker::ShowCallstack
-0x00007ff697b4103c (Unity) GetStacktrace
-0x00007ff69858b2a3 (Unity) DebugStringToFile
-0x00007ff696cf1e95 (Unity) MonoManager::SetupLoadedEditorAssemblies
-0x00007ff696ce8f71 (Unity) MonoManager::EndReloadAssembly
-0x00007ff696cf0057 (Unity) MonoManager::ReloadAssembly
-0x00007ff6979f0e41 (Unity) LoadDomainAndUserAssemblies
-0x00007ff6979f14a9 (Unity) LoadUserAssemblies
-0x00007ff697c27118 (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
-0x00007ff697cae2f2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff697cb0450 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff697cb3bce (Unity) asio::io_service::run
-0x00007ff697c4f8db (Unity) RunAssetImportWorkerClientV2
-0x00007ff697c4f930 (Unity) RunAssetImporterV2
-0x00007ff6976f5b49 (Unity) Application::InitializeProject
-0x00007ff697b4b4f2 (Unity) WinMain
-0x00007ff6991dbd4e (Unity) __scrt_common_main_seh
-0x00007fff5af426ad (KERNEL32) BaseThreadInitThunk
-0x00007fff5c3eaa68 (ntdll) RtlUserThreadStart
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Domain Reload Profiling:
-	ReloadAssembly (995ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (835ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (1ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.4 MB.
-System memory in use after: 140.7 MB.
-
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3896.
-Total: 3.233700 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.142900 ms MarkObjects: 2.814900 ms  DeleteObjects: 0.028500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 59.837049 seconds.
-  path: Assets/Scenes/Level2.unity
-  artifactKey: Guid(4b21c7f772fde32458e27e0269d8b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level2.unity using Guid(4b21c7f772fde32458e27e0269d8b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734fff7f019c1a85b7b44761a6b345de') in 0.017765 seconds 
-  Import took 0.023334 seconds .
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6353f97cdd5967cb083ec657d8d1f') in 0.007069 seconds 
+  Import took 0.011213 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.679384 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916153ee71e6cd9bbd96c58c7938ace2') in 0.005306 seconds 
-  Import took 0.010971 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png
+  artifactKey: Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-07-continue.png using Guid(b06a0c5187b449349b9e035257636f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab8a6ade903404a00e40fdd884dec27') in 0.010492 seconds 
+  Import took 0.014589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376045b1d5f1f4fa825f96f963556063') in 0.007039 seconds 
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789f8591ff3f5d106838ded77e6ebf8d') in 0.006705 seconds 
+  Import took 0.010500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png
+  artifactKey: Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlatformerSet1/AnimCharacter/attack-08-continue.png using Guid(5a90aedfd7cdeec4898996cc04258783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9affc548d2afc8ffdf8fbd6cc86f95bb') in 0.011059 seconds 
+  Import took 0.015416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021390 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112f63ac0ed316d1b567a4391db84559') in 0.009094 seconds 
+  Import took 0.013579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/BlackHole-Vortex/SpriteSheets/BalckHole-Blue.png
+  artifactKey: Guid(e49e785e1e9cc5b499a19fafea1ab0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/SpriteSheets/BalckHole-Blue.png using Guid(e49e785e1e9cc5b499a19fafea1ab0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54f9e2933b14d6db6a8887bc298882') in 0.110293 seconds 
+  Import took 0.114134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/BlackHole-Vortex/SpriteSheets/BalckHole-ReddishColor.png
+  artifactKey: Guid(5181d3088ad289b449247b089372f2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/SpriteSheets/BalckHole-ReddishColor.png using Guid(5181d3088ad289b449247b089372f2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f105ed9a72a13e01f2d3f91267cd64') in 0.111000 seconds 
+  Import took 0.114754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00001.png
+  artifactKey: Guid(d8e3c881dba8653419dc6fb67439c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00001.png using Guid(d8e3c881dba8653419dc6fb67439c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3233af239601fee0c5b959be86557c') in 0.012793 seconds 
+  Import took 0.016423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00003.png
+  artifactKey: Guid(8b30e0e066f31d941b20a79762ce1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00003.png using Guid(8b30e0e066f31d941b20a79762ce1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b716405e1455c582bfaa34fa88bf0534') in 0.011628 seconds 
+  Import took 0.015215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00007.png
+  artifactKey: Guid(dae653e9fb812154dab1b50ec4faa012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00007.png using Guid(dae653e9fb812154dab1b50ec4faa012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f406f29baf9babd01dd5a038850a34e') in 0.012143 seconds 
+  Import took 0.016182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00006.png
+  artifactKey: Guid(b8fca9e12d0a2bd4f8f7a7c2051a9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00006.png using Guid(b8fca9e12d0a2bd4f8f7a7c2051a9950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a51c45bf648a15a0be23733b845237') in 0.013435 seconds 
+  Import took 0.017349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00004.png
+  artifactKey: Guid(f49287cc44d4ad5479715d4dc167d3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00004.png using Guid(f49287cc44d4ad5479715d4dc167d3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0e2daf27f5151cb2504e85dd5b2d51') in 0.013148 seconds 
+  Import took 0.017037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BlackHole-Vortex/SpriteSheets/BalckHole-ReddishColorTunnel.png
+  artifactKey: Guid(e47e08e929c48534b99c274fd5b7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/SpriteSheets/BalckHole-ReddishColorTunnel.png using Guid(e47e08e929c48534b99c274fd5b7fe13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a7736d7c59e8c179452da89e008074') in 0.113478 seconds 
+  Import took 0.117572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00008.png
+  artifactKey: Guid(8a85e6406ab573f49b05e2214c46f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00008.png using Guid(8a85e6406ab573f49b05e2214c46f3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66937b1f38591b7b9f70ec8b60d5cb26') in 0.012892 seconds 
+  Import took 0.016836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00009.png
+  artifactKey: Guid(98d7f81bdc7857449826eb9667cbb9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00009.png using Guid(98d7f81bdc7857449826eb9667cbb9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615e1435a09cb3b116fbf8934f584349') in 0.012797 seconds 
+  Import took 0.016618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00010.png
+  artifactKey: Guid(8ff2725cb909a1143ad24b4c104776db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00010.png using Guid(8ff2725cb909a1143ad24b4c104776db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7a1dc54f68ece45fed738762e1f92c') in 0.019708 seconds 
+  Import took 0.025846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00000.png
+  artifactKey: Guid(22da42b99e473a143829e471789ea9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00000.png using Guid(22da42b99e473a143829e471789ea9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551f58ffceb8cd51e4f17621139ae82') in 0.015643 seconds 
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00002.png
+  artifactKey: Guid(192db7bcb93a99543b680d8539c20503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00002.png using Guid(192db7bcb93a99543b680d8539c20503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02914cb9e0ee20f9c92899813a758536') in 0.014061 seconds 
+  Import took 0.019035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00015.png
+  artifactKey: Guid(ec68c7d3328cb614aadef9723172fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00015.png using Guid(ec68c7d3328cb614aadef9723172fc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d5743bbbc837ff3cd70f77053f6bfc') in 0.013621 seconds 
+  Import took 0.018091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00011.png
+  artifactKey: Guid(d57dc7bcea604994d9d92e9cf7f03155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00011.png using Guid(d57dc7bcea604994d9d92e9cf7f03155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26492ea5bdcaa685780f7b3a58385da') in 0.012208 seconds 
+  Import took 0.016429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00013.png
+  artifactKey: Guid(69a3bae1f25e1a141be449e9ed845e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00013.png using Guid(69a3bae1f25e1a141be449e9ed845e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5017d835187237ccb7f67098a344cb4') in 0.012204 seconds 
+  Import took 0.015996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00014.png
+  artifactKey: Guid(872a4db6277f5594989609a31a3dcf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00014.png using Guid(872a4db6277f5594989609a31a3dcf3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e74b91aa4e055cc1cb221fed8d10137') in 0.012438 seconds 
+  Import took 0.016547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00016.png
+  artifactKey: Guid(e38a56cbed3fefe4facfb72d6c2897c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00016.png using Guid(e38a56cbed3fefe4facfb72d6c2897c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb787bb2eb83b20cf5cf37ba0b72a42') in 0.011202 seconds 
+  Import took 0.014722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00005.png
+  artifactKey: Guid(da3a0a313cb186449818ebf691d2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00005.png using Guid(da3a0a313cb186449818ebf691d2c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d4dec846295f5222e8586efcaef96f') in 0.011821 seconds 
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00012.png
+  artifactKey: Guid(bc79dd3089e808f419c4aae542609423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00012.png using Guid(bc79dd3089e808f419c4aae542609423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aa0954fe013ebf74d65de19acc1fe4') in 0.011105 seconds 
+  Import took 0.014654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069316 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00017.png
+  artifactKey: Guid(73d15c9521929eb4f800c44c3fdfb54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00017.png using Guid(73d15c9521929eb4f800c44c3fdfb54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091e4b837f441ac965fe8210675fc85b') in 0.012542 seconds 
+  Import took 0.017456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00018.png
+  artifactKey: Guid(967ec7520e9b87844b13f8b7d212fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00018.png using Guid(967ec7520e9b87844b13f8b7d212fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1df6a23806c194df8a7a43739e9333') in 0.012612 seconds 
+  Import took 0.016708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00021.png
+  artifactKey: Guid(dd88377d0edd5aa4da15ca40021db4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00021.png using Guid(dd88377d0edd5aa4da15ca40021db4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9738c67ec9f838a43704765e75f53f00') in 0.011484 seconds 
+  Import took 0.015102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00019.png
+  artifactKey: Guid(54124dd53b0d307498fa98a794602736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00019.png using Guid(54124dd53b0d307498fa98a794602736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420e6a28597c83e86c6b759cff08ad5a') in 0.011331 seconds 
+  Import took 0.015215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00020.png
+  artifactKey: Guid(790b406196f3d964ea11e4abaec51c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00020.png using Guid(790b406196f3d964ea11e4abaec51c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0ec7ddda3481f0deba76e8229c7eee') in 0.011801 seconds 
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00022.png
+  artifactKey: Guid(2dd031e2ca5a44345bb68428fdd2e889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00022.png using Guid(2dd031e2ca5a44345bb68428fdd2e889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffe54736d90141697279e62ecaaa222') in 0.011166 seconds 
+  Import took 0.014868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00025.png
+  artifactKey: Guid(c92561d4d102c53419b5908cc15d1f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00025.png using Guid(c92561d4d102c53419b5908cc15d1f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1c72a63ae6a356d8f5538bb35e78ff') in 0.014616 seconds 
+  Import took 0.018337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00023.png
+  artifactKey: Guid(54f04143277aef0429f4c473bd202e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00023.png using Guid(54f04143277aef0429f4c473bd202e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10092597aec10ce1450bc6645cdc9c5') in 0.011184 seconds 
+  Import took 0.014780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00024.png
+  artifactKey: Guid(bc3e819104f10264f8de66ccb614e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00024.png using Guid(bc3e819104f10264f8de66ccb614e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9cfe017807d3a4921a9ea76c3a37ab') in 0.013296 seconds 
+  Import took 0.017245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172383 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00026.png
+  artifactKey: Guid(0bac10e0c63c0d04f814fc57eabbc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00026.png using Guid(0bac10e0c63c0d04f814fc57eabbc8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe7f2136dba46fb6793fad679c0689') in 0.011298 seconds 
+  Import took 0.015984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00027.png
+  artifactKey: Guid(571e4b22452e7504499d38b505fa5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00027.png using Guid(571e4b22452e7504499d38b505fa5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c360383cf889ab1f8d62a55ca0e688c') in 0.014644 seconds 
+  Import took 0.019176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00028.png
+  artifactKey: Guid(8a9013f0af5a84e43852b9a4b7a9f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00028.png using Guid(8a9013f0af5a84e43852b9a4b7a9f9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9788336b7a0fe19fc64d4eda4cb50a4d') in 0.010615 seconds 
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053953 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00029.png
+  artifactKey: Guid(d57e8e695aeb04a40854e3207c61b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-ReddishColorTunnel-s/BalckHole-ReddishColorTunnel2_00029.png using Guid(d57e8e695aeb04a40854e3207c61b57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5f557603f0cb6d7397b9bbf6ba1c2b') in 0.011973 seconds 
+  Import took 0.016295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00002.png
+  artifactKey: Guid(04b5e79c162a950408af6e3a4ed58210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00002.png using Guid(04b5e79c162a950408af6e3a4ed58210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183aea7c3cdc714b4a585a43190a3fae') in 0.012613 seconds 
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00003.png
+  artifactKey: Guid(500c30dfc8517ed429ab960860917a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00003.png using Guid(500c30dfc8517ed429ab960860917a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7372b7755a3ba4d414cb840a4f39581') in 0.011975 seconds 
+  Import took 0.015966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00004.png
+  artifactKey: Guid(c5a1d6a86b1da534685bd103e5a946d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00004.png using Guid(c5a1d6a86b1da534685bd103e5a946d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b0765a7461fe3feeb107f254e9dc40') in 0.011473 seconds 
+  Import took 0.015299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00001.png
+  artifactKey: Guid(23ce08771ba77fb4caca8b58a538a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00001.png using Guid(23ce08771ba77fb4caca8b58a538a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a68b6a352cd1b27b9b68804d89faea') in 0.011832 seconds 
+  Import took 0.016265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00000.png
+  artifactKey: Guid(a615ce010eadafa44aae08babbdae05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00000.png using Guid(a615ce010eadafa44aae08babbdae05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7904661e5fae7ecfbec58aa52cdc822b') in 0.011375 seconds 
+  Import took 0.015409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.541435 seconds.
+  path: Assets/icone
+  artifactKey: Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone using Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f043eff99bb7f5f76b7a23f3eb570a73') in 0.002217 seconds 
+  Import took 0.007169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.792489 seconds.
+  path: Assets/icone_iphone
+  artifactKey: Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_iphone using Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16f9f561977df62aca3222ab4619c52') in 0.002640 seconds 
+  Import took 0.006550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.892758 seconds.
+  path: Assets/icone_ios
+  artifactKey: Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios using Guid(55a63d387d47e5c42a4149ea10f1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3420ec84c7b61e916780d9d39b083656') in 0.003579 seconds 
+  Import took 0.009888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508089 seconds.
+  path: Assets/icone_ios/120x120.png
+  artifactKey: Guid(828438f0cd0ad2c47915f5b330b13dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/120x120.png using Guid(828438f0cd0ad2c47915f5b330b13dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34c7e542d7c15176598d26b4f9709b1') in 0.014198 seconds 
+  Import took 0.018054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/icone_ios/180x180.png
+  artifactKey: Guid(987d105d6a014f5489a792fc10e96b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/180x180.png using Guid(987d105d6a014f5489a792fc10e96b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3352d417cae478a1b3bdace2acb164e4') in 0.013040 seconds 
+  Import took 0.016707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.143599 seconds.
+  path: Assets/icone_ios/76x76.png
+  artifactKey: Guid(db570d9a11b33b6499276460341f7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/76x76.png using Guid(db570d9a11b33b6499276460341f7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adba5d02d4dd287c64778e6cd27afae4') in 0.013676 seconds 
+  Import took 0.018153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/icone_ios/ORIGINALE.png
+  artifactKey: Guid(e720e0d8efdb0e04189e3642352aa97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/ORIGINALE.png using Guid(e720e0d8efdb0e04189e3642352aa97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156c0c0bb0fd0ca743e36b4a41a2786f') in 0.013450 seconds 
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/icone_ios/152x152.png
+  artifactKey: Guid(28633e883b54701409a9e57b057f28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/152x152.png using Guid(28633e883b54701409a9e57b057f28d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e897d2d4dc95745d950e097c4d26cc55') in 0.013836 seconds 
+  Import took 0.017533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/icone_ios/167x167.png
+  artifactKey: Guid(1a94681e22bd79e4dbcf05be67a58963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icone_ios/167x167.png using Guid(1a94681e22bd79e4dbcf05be67a58963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3db0efd02175cae07d22d8da5c44572') in 0.013433 seconds 
+  Import took 0.017118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.946105 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00012.png
+  artifactKey: Guid(103bb775030655c4491b658619a0d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_DarkBlue3/BH-4_00012.png using Guid(103bb775030655c4491b658619a0d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a8be639f47462d18d916f5d1011208') in 0.013998 seconds 
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/StoneUI/OtherUI_4k+/button12.png
+  artifactKey: Guid(829ad12c453df2b4d965ba7c205a75ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_4k+/button12.png using Guid(829ad12c453df2b4d965ba7c205a75ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1a55a196adfadb47210aa48517f8b6') in 0.012077 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole-Red-3-s/BH-RED 3_00012.png
+  artifactKey: Guid(56819fe79e4552e4d88a6532d7a11155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole-Red-3-s/BH-RED 3_00012.png using Guid(56819fe79e4552e4d88a6532d7a11155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4057e6bbd2f70e6e7e167b723f464088') in 0.011407 seconds 
+  Import took 0.015100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png
+  artifactKey: Guid(bfed3e498947fcb4890b7f40f54d85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Textures/BlueNoise16/L/LDR_LLL1_12.png using Guid(bfed3e498947fcb4890b7f40f54d85b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf978d5cb915b1b4d0291365766383f7') in 0.009668 seconds 
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole-White 2/BH_00012.png
+  artifactKey: Guid(b5ef44d13823bd049a38fee656d3458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole-White 2/BH_00012.png using Guid(b5ef44d13823bd049a38fee656d3458e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5276539b6084b75f607df654651bf6d') in 0.011789 seconds 
+  Import took 0.015456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small-2/BlackHole-2_00012.png
+  artifactKey: Guid(dfb05fe54254e8d43be34202170e1120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small-2/BlackHole-2_00012.png using Guid(dfb05fe54254e8d43be34202170e1120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b2d9ff6fd8f832de9c1a50d150b071') in 0.009794 seconds 
+  Import took 0.013500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BalckHole-Reddish Color-s/BH-RED_00012.png
+  artifactKey: Guid(e5623df48c052a04294d6c3bf71bcad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BalckHole-Reddish Color-s/BH-RED_00012.png using Guid(e5623df48c052a04294d6c3bf71bcad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e52374ebdc153adfc092b2f2cfc66f0') in 0.010393 seconds 
+  Import took 0.013998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole-White-s/BlackHole-White_00012.png
+  artifactKey: Guid(26e6d44d2596a0e4a83c56e29739beb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole-White-s/BlackHole-White_00012.png using Guid(26e6d44d2596a0e4a83c56e29739beb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc08a94b30f40669c457dcd9fc584a1') in 0.012756 seconds 
+  Import took 0.016910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_Loop-s/BlackHole_Loop_00012.png
+  artifactKey: Guid(7642bbf0f6ad571498bef420593aa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_Loop-s/BlackHole_Loop_00012.png using Guid(7642bbf0f6ad571498bef420593aa4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa692419c8c560abd6aba550be4a781') in 0.012846 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole-Red-s/BlackHole-Red_00012.png
+  artifactKey: Guid(5d9532fe64ad961489e4bf3f134ca71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole-Red-s/BlackHole-Red_00012.png using Guid(5d9532fe64ad961489e4bf3f134ca71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1367b31a0125069e29dc05e6d83c25f8') in 0.011701 seconds 
+  Import took 0.015954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole-Tunel2/BlackHole-Tunel2_00012.png
+  artifactKey: Guid(67eccefc7e8782f488084053e1a83edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole-Tunel2/BlackHole-Tunel2_00012.png using Guid(67eccefc7e8782f488084053e1a83edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965f55ecea9cb664f4b176a099086d28') in 0.014025 seconds 
+  Import took 0.018252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small-3-s/BlackHole_Loop_small-3_00012.png
+  artifactKey: Guid(2c3a39e30f0133c4bab26be818ee53ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small-3-s/BlackHole_Loop_small-3_00012.png using Guid(2c3a39e30f0133c4bab26be818ee53ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cabbbf7d5a1e97be88e0b5f055b19d0') in 0.011765 seconds 
+  Import took 0.015515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/StoneUI/OtherUI_4k+/button_rock_greystar12.png
+  artifactKey: Guid(141e1e09b6ddfe443a00256f5ead126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_4k+/button_rock_greystar12.png using Guid(141e1e09b6ddfe443a00256f5ead126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1985f026ff380d9fec5d74c2a5be90d') in 0.012649 seconds 
+  Import took 0.016944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small/BlackHole_00012.png
+  artifactKey: Guid(a61eb0a0db4da8444b11ae10976a14f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlackHole-Vortex/Frames/BlackHole_Loop_small/BlackHole_00012.png using Guid(a61eb0a0db4da8444b11ae10976a14f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d82f81726084f25d662713c210b5a0') in 0.010599 seconds 
+  Import took 0.014223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.341845 seconds.
+  path: Assets/StoneUI/OtherUI_4k+/button76.png
+  artifactKey: Guid(a77a2f0f7bc99ac40aa4acffcce2c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneUI/OtherUI_4k+/button76.png using Guid(a77a2f0f7bc99ac40aa4acffcce2c379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbffef061b4bf53416f85e10f3fe15d4') in 0.012620 seconds 
+  Import took 0.016849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.868618 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutHorizontal.png
+  artifactKey: Guid(83cbec96661199e408a744d4c3e586e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutHorizontal.png using Guid(83cbec96661199e408a744d4c3e586e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd233d199ff7a8f2a664420e7df41753') in 0.012459 seconds 
+  Import took 0.016659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutHorizontal@2x.png
+  artifactKey: Guid(f3fe1e478135ed34db9a1f6707f52c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutHorizontal@2x.png using Guid(f3fe1e478135ed34db9a1f6707f52c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c06cbaa0bb8ec3bbfabd96b955bf60') in 0.009155 seconds 
+  Import took 0.012729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutHorizontal@2x.png
+  artifactKey: Guid(9cad92999ddfa304495b735a55c78329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/d_LayoutHorizontal@2x.png using Guid(9cad92999ddfa304495b735a55c78329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0dd61e3ebc86b33274059c0b7f7b4a') in 0.010534 seconds 
+  Import took 0.014702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutHorizontal.png
+  artifactKey: Guid(8ccec084228b3b74a898f38126eb142f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons/LayoutHorizontal.png using Guid(8ccec084228b3b74a898f38126eb142f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df46166ea387e4c924670a1f268d9448') in 0.010101 seconds 
+  Import took 0.014229 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
